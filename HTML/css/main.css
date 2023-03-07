@@ -14150,11 +14150,12 @@ a.logo {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
+	
 }
 
 a.logo img {
 	display: inline-block;
-	max-height: 80px;
+	max-height: 280px;
 }
 
 a.logo .logo-text {
@@ -14842,7 +14843,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 80px;
+		font-size: 40px;
 		line-height: 0.9;
 		margin: 10px 0;
 		text-shadow: 0 0 13px rgba(0, 0, 0, 0.1);
@@ -14861,7 +14862,7 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (max-width: 767px) {
 	.page_slider .intro_featured_word {
-		font-size: 56px;
+		font-size: 35px;
 		margin-top: 6px;
 	}
 
@@ -14907,7 +14908,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 200px;
+		font-size: 80px;
 		font-weight: 600;
 		margin-bottom: 20px;
 		white-space: nowrap;
@@ -14960,7 +14961,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .flexslider-bottom:before {
-	background-color: #fff;
+	/* background-color: #fff; */
 	bottom: -35px;
 	content: "";
 	height: 70px;
@@ -14974,7 +14975,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .flexslider-bottom:after {
-	background-color: #fff;
+	/* background-color: #fff; */
 	bottom: -35px;
 	content: "";
 	height: 70px;
@@ -14988,7 +14989,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .flexslider-bottom .mouse-button {
-	background-image: url("../img/mouse_icon.png");
+	/* background-image: url("../img/mouse_icon.png"); */
 	background-repeat: no-repeat;
 	bottom: 30px;
 	content: "";
@@ -15361,7 +15362,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider.static .intro_featured_word {
-	font-size: 80px;
+	font-size: 40px;
 	font-weight: 100;
 	line-height: 60px;
 	margin-bottom: 0;
@@ -21231,6 +21232,20 @@ h4.margin {
 	transform: skewY(-3deg);
 	width: 50%;
 	z-index: -1;
+}
+
+ .service_bar {
+	background-image: url("../../HTML/images/service/service_bar.jpg");
+	bottom: 30px;
+	content: "";
+	height: 250px;
+	left: 0;
+	position: absolute;
+	/* -webkit-transform: skewY(3deg);
+	-ms-transform: skewY(3deg);
+	transform: skewY(3deg); */
+	width: 100%;
+	z-index: 0;
 }
 
 .ls.invise {
